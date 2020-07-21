@@ -121,14 +121,14 @@ export const OVERWRITE_MAP_ID = 'overwriteMap';
  */
 export const SHARE_MAP_ID = 'shareMap';
 
-export const KEPLER_GL_NAME = 'kepler.gl';
+export const KEPLER_GL_NAME = 'HRM';
 
 // __PACKAGE_VERSION__ is automatically injected by Babel/Webpack during the building process
 // Since we are injecting this during the build process with babel
 // while developing VERSION is not defined, we capture the exception and return
 // an empty string which will allow us to retrieve the latest umd version
-export const KEPLER_GL_VERSION = '__PACKAGE_VERSION__';
-export const KEPLER_GL_WEBSITE = 'http://kepler.gl/';
+export const KEPLER_GL_VERSION = 'AFD Group';
+export const KEPLER_GL_WEBSITE = 'https://www.afd.fr/en';
 
 export const DIMENSIONS = {
   sidePanel: {
@@ -227,31 +227,10 @@ export const DEFAULT_LAYER_GROUPS = [
 
 export const DEFAULT_MAP_STYLES = [
   {
-    id: 'dark',
-    label: 'Dark',
-    url: 'mapbox://styles/uberdata/cjoqbbf6l9k302sl96tyvka09',
-    icon: `${ICON_PREFIX}/UBER_DARK_V2.png`,
-    layerGroups: DEFAULT_LAYER_GROUPS
-  },
-  {
-    id: 'light',
-    label: 'Light',
-    url: 'mapbox://styles/uberdata/cjoqb9j339k1f2sl9t5ic5bn4',
-    icon: `${ICON_PREFIX}/UBER_LIGHT_V2.png`,
-    layerGroups: DEFAULT_LAYER_GROUPS
-  },
-  {
-    id: 'muted',
-    label: 'Muted Light',
-    url: 'mapbox://styles/uberdata/cjfyl03kp1tul2smf5v2tbdd4',
-    icon: `${ICON_PREFIX}/UBER_MUTED_LIGHT.png`,
-    layerGroups: DEFAULT_LAYER_GROUPS
-  },
-  {
-    id: 'muted_night',
-    label: 'Muted Night',
-    url: 'mapbox://styles/uberdata/cjfxhlikmaj1b2soyzevnywgs',
-    icon: `${ICON_PREFIX}/UBER_MUTED_NIGHT.png`,
+    id: 'basic',
+    label: 'Basic',
+    url: 'mapbox://styles/cperbost/ck7ej5v3p2dwh1jsh5kkm4p9h',
+    icon: 'https://i.ibb.co/Mh9LFWX/Capture-d-e-cran-2020-07-21-a-19-01-15.png',
     layerGroups: DEFAULT_LAYER_GROUPS
   },
   {

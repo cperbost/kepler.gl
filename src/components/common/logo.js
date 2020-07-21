@@ -30,14 +30,14 @@ const LogoTitle = styled.div`
 
 const LogoName = styled.div`
   .logo__link {
-    color: ${props => props.theme.logoColor};
-    font-size: 14px;
+    color: #DA291C;
+    font-size: 28px;
     font-weight: 600;
     letter-spacing: 1.17px;
   }
 `;
 const LogoVersion = styled.div`
-  font-size: 10px;
+  font-size: 18px;
   color: ${props => props.theme.subtextColor};
   letter-spacing: 0.83px;
   line-height: 14px;
@@ -63,9 +63,6 @@ const LogoSvg = () => (
 
 const KeplerGlLogo = ({appName, appWebsite = KEPLER_GL_WEBSITE, version}) => (
   <LogoWrapper className="side-panel-logo">
-    <LogoSvgWrapper>
-      <LogoSvg />
-    </LogoSvgWrapper>
     <LogoTitle className="logo__title">
       <LogoName className="logo__name">
         <a className="logo__link" target="_blank" rel="noopener noreferrer" href={appWebsite}>
