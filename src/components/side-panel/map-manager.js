@@ -105,6 +105,11 @@ function MapManagerFactory(MapStyleSelector, LayerGroupSelector) {
               <Add height="12px" />
               <FormattedMessage id={'mapManager.addMapStyle'} />
             </Button>
+            <div>
+            <a href="https://studio.mapbox.com/" add target="_blank">
+                   Map creation tool
+            </a>
+            </div>
           </div>
         </div>
       );
